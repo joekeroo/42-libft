@@ -17,6 +17,9 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	@$(AR) $(NAME) $(OBJ)
 
+%.o: %.c
+	@${CC} -c $< -o $@
+
 clean:
 	@$(RM) $(OBJ)
 
@@ -24,3 +27,5 @@ fclean: clean
 	@$(RM) $(NAME)
 
 re: fclean all
+
+.PHONY = all clean fclean re
