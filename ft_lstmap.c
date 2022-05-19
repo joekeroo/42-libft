@@ -6,7 +6,7 @@
 /*   By: jhii <jhii@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/19 13:14:55 by jhii              #+#    #+#             */
-/*   Updated: 2022/05/19 13:17:55 by jhii             ###   ########.fr       */
+/*   Updated: 2022/05/19 15:16:50 by jhii             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,10 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void*), void (*del)(void *))
 	if (!f || !del)
 		return (NULL);
 	first = NULL;
+	new = ft_lstnew((*f)(lst->content));
 	while (lst)
 	{
-		if (!(new = ft_lstnew((*f)(lst->content))))
+		if (!new)
 		{
 			while (first)
 			{
