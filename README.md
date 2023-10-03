@@ -78,6 +78,7 @@ In this project, we will be creating a library of functions, these are the follo
 - `make` - compiles the library into libft.a
 - `make clean` - removes the obj folder
 - `make fclean` - removes the obj folder and libft.a
+- `make re` - removes the obj folder and libft.a and recompiles
 
 # Libft Tester
 
