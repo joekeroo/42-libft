@@ -74,15 +74,13 @@ In this project, we will be creating a library of functions, these are the follo
 
 # Compilation
 
-|   Commands    |            Description             |
-| :-----------: | :--------------------------------: |
-|    `make`     | compiles the library into libft.a  |
-| `make clean`  |       removes the obj folder       |
-| `make fclean` | removes the obj folder and libft.a |
+`make` - compiles the library into libft.a
+`make clean` - removes the obj folder
+`make fclean` - removes the obj folder and libft.a
 
 # Libft Tester
 
-[pasqualerossi](https://github.com/pasqualerossi)'s libft tester - https://github.com/pasqualerossi/42-Cursus-Tester
+pasqualerossi's libft tester - https://github.com/pasqualerossi/42-Cursus-Tester
 
 # Credits
 
