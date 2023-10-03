@@ -86,5 +86,5 @@ Pasquale Rossi's libft tester - https://github.com/pasqualerossi/42-Cursus-Teste
 
 # Credits
 
-[`LiftTester`](https://github.com/pasqualerossi/42-Cursus-Tester) by [pasqualerossi](https://github.com/pasqualerossi).
-[`README.md`](README.md) structure referenced from [pasqualerossi](https://github.com/pasqualerossi).
+- [`LiftTester`](https://github.com/pasqualerossi/42-Cursus-Tester) by [pasqualerossi](https://github.com/pasqualerossi).
+- [`README.md`](README.md) structure referenced from [pasqualerossi](https://github.com/pasqualerossi).
