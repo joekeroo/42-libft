@@ -1,6 +1,7 @@
 # 42-Libft
 
 Note: The file structure of this project has been modified.
+
 In this project, we will be creating a library of functions, these are the following functions that must be created:
 
 # Libft Functions
